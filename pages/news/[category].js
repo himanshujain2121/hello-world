@@ -1,5 +1,5 @@
 function ArticleByCategory({articles,category}) {
-    console.log(articles)
+    //console.log(articles)
     return (
         <>
             <h1>showing news for category {category}</h1>
@@ -23,7 +23,11 @@ function ArticleByCategory({articles,category}) {
 export default ArticleByCategory
 
 export async function getServerSideProps(context) {
-    const { params } = context
+    const { params, req, res, query } = context
+    console.log(query)
+    console.log(params)
+    console.log(req.headers.cookie)
+    res.setHeader('Set-Cookie',['name=himanshu'])
     const { category } = params
     const response = await fetch(`http://localhost:4000/news?category=${category}`)
     const data = await response.json();
