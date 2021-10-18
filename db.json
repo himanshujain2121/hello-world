@@ -1,0 +1,28 @@
+{
+    "city": [
+        {
+            "id": 1,
+            "title": "city 1",
+            "price": 900,
+            "description": "city 1 Bangalore"
+        },
+        {
+            "id": 2,
+            "title": "city 2",
+            "price": 1250,
+            "description": "city 2 mysore"
+        },
+        {
+            "id": 3,
+            "title": "city 3",
+            "price": 2000,
+            "description": "city 3 pune"
+        },
+        {
+            "id": 4,
+            "title": "city 4",
+            "price": 1000,
+            "description": "city 4 Mumbai"
+        }
+    ]
+}
