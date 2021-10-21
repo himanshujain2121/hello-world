@@ -1,28 +1,100 @@
 {
-    "dashboard":{
-        "posts":5,
-        "likes":100,
-        "followers":20,
-        "following":50
+    "events": [
+        {
+            "id": 1,
+            "title": "Event 1",
+            "description": "description 1",
+            "category": "sports",
+            "date": "april 25"
+        },
+        {
+            "id": 2,
+            "title": "Event 2",
+            "description": "description 2",
+            "category": "technology",
+            "date": "may 25"
+        },
+        {
+            "id": 3,
+            "title": "Event 3",
+            "description": "description 3",
+            "category": "food",
+            "date": "october 25"
+        },
+        {
+            "id": 4,
+            "title": "Event 4",
+            "description": "description 4",
+            "category": "sports",
+            "date": "april 25"
+        },
+        {
+            "id": 5,
+            "title": "Event 5",
+            "description": "description 5",
+            "category": "sports",
+            "date": "april 25"
+        },
+        {
+            "id": 6,
+            "title": "Event 6",
+            "description": "description 6",
+            "category": "sports",
+            "date": "april 25"
+        },
+        {
+            "id": 7,
+            "title": "Event 7",
+            "description": "description 7",
+            "category": "sports",
+            "date": "april 25"
+        },
+        {
+            "id": 8,
+            "title": "Event 8",
+            "description": "description 8",
+            "category": "sports",
+            "date": "april 25"
+        },
+        {
+            "id": 9,
+            "title": "Event 9",
+            "description": "description 9",
+            "category": "sports",
+            "date": "april 25"
+        },
+        {
+            "id": 10,
+            "title": "Event 10",
+            "description": "description 10",
+            "category": "sports",
+            "date": "april 25"
+        }
+    ],
+    "dashboard": {
+        "posts": 5,
+        "likes": 100,
+        "followers": 20,
+        "following": 50
     },
-    "news":[
+    "news": [
         {
-            "id":1,
-            "title":"News Article1",
-            "description":"description 1",
-            "category":"sports"
+            "id": 1,
+            "title": "News Article1",
+            "description": "description 1",
+            "category": "sports"
         },
         {
-            "id":2,
-            "title":"News Article2",
-            "description":"description 2",
-            "category":"politics"
+            "id": 2,
+            "title": "News Article2",
+            "description": "description 2",
+            "category": "politics"
         },
         {
-            "id":3,
-            "title":"News Article3",
-            "description":"description 3",
-            "category":"sports"
+            "id": 3,
+            "title": "News Article3",
+            "description": "description 3",
+            "category": "sports"
         }
     ],
     "city": [
